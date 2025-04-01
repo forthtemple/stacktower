@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Stack Tower
+Comment=Make the tower as high as you can
+Exec=stacktower 
+Icon=${SNAP}/meta/gui/stacktower.png
+Terminal=false
+Type=Application
+Categories=Games; # Adjust accordingly your snap category.
