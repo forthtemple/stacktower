@@ -278,7 +278,7 @@ class _State extends State<StackTowerPage> {
     return
        Scaffold(
             // resizeToAvoidBottomInset: true,
-           appBar: Platform.isIOS||Platform.isAndroid?AppBar(
+           appBar: !kIsWeb&&(Platform.isIOS||Platform.isAndroid)?AppBar(
              // TRY THIS: Try changing the color here to a specific color (to
              // Colors.amber, perhaps?) and trigger a hot reload to see the AppBar
              // change color while the other colors stay the same.
